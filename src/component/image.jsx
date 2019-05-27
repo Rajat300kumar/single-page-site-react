@@ -6,13 +6,13 @@ const Image = styled.img`
   height: 500px;
   opacity: 0.9;
 `;
-const CENTER = styled.h1`
+const CENTER = styled.h2`
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 29%;
+  left: 35%;
   transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 30px;
+  color: #3498db;
+  font-size: 35px;
   font-family: sans-serif;
 `;
 
@@ -27,9 +27,9 @@ class Hello extends Component {
             alt=""
           />
           <CENTER>
-            Welcome To The Demo Page
+            Welcome to the single page
             <br />
-            OF Reactjs
+            of Reactjs
           </CENTER>
         </div>
       </React.Fragment>

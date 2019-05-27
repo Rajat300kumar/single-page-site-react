@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const DIV3 = styled.div`
   color: #6c757d !important;
-  margin-left: 30px;
+  margin-left: 40px;
   font-size: 25px;
   float: "center";
 `;

@@ -57,10 +57,10 @@ class Contect extends Component {
               fontFamily: "san-fansf",
               padding: 25,
               textAlign: "center",
-              fontSize: 30
+              fontSize: 35
             }}
           >
-            CONTECTS
+            Contects
           </h1>
 
           <div
@@ -119,7 +119,6 @@ class Contect extends Component {
             <br />
             <button
               style={{
-                borderRadius: 10,
                 float: "center",
                 backgroundColor: "#fff",
                 marginLeft: 80

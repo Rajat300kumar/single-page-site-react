@@ -11,10 +11,10 @@ class Feature extends Component {
             textAlign: "center",
             fontFamily: "san-fansf",
             marginTop: 30,
-            fontSize: 30
+            fontSize: 35
           }}
         >
-          FEATURES
+          Features
         </h1>
         <div style={{ display: "flex", padding: 50 }}>
           <div style={{ textAlign: "center" }}>

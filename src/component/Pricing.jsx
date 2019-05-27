@@ -6,12 +6,12 @@ const DIV = styled.div`
   padding: 20px;
   border-radius: 5px;
   border: 1px solid #f8f9fa;
-  font-size: 2rem;
+  font-size: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 20px 10px -13px #0000000f;
   background-color: #fff;
   justify-content: center;
-  color: #6c757d !important;
+  color: #4d5656;
 `;
 const DIV1 = styled.div`
   justify-content: center;
@@ -29,10 +29,10 @@ class Price extends Component {
               fontFamily: "san-fansf",
               padding: 30,
               textAlign: "center",
-              fontSize: 30
+              fontSize: 35
             }}
           >
-            PRICE
+            Price
           </h1>
           <div
             style={{
@@ -41,14 +41,14 @@ class Price extends Component {
             }}
           >
             <DIV>
-              <h2>Start</h2>
+              <h2 style={{ color: "#283747" }}>Start</h2>
               <hr />
-              <p> Demo only</p>
-              <p>Demo only</p>
-              <p>Demo only</p>
+              <p> For demo only</p>
+              <p>For demo only</p>
+              <p>For demo only</p>
             </DIV>
             <DIV>
-              <h2>Advance</h2>
+              <h2 style={{ color: "##283747" }}>Advance</h2>
               <hr />
               <p>free time make</p>
               <p>free time make</p>

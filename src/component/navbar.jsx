@@ -24,8 +24,6 @@ const DIV = styled.div`
 `;
 
 const Unorder = styled.ul`
-  text-align: "center";
-  font-size: 20px;
   list-style-type: none;
 `;
 class NavBar extends Component {
